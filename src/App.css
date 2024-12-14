@@ -15,7 +15,7 @@
     gap: 2rem;
     align-items: center;
     padding: 10px 5%;
-    
+    background-color: white;
     justify-content: center;
 }
 
@@ -36,5 +36,59 @@
     color: lightgray;
     text-decoration: none;
 }
+
+#Skills-Container{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+  #icon-Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .tech-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .tech-name {
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tech-item:hover .tech-name {
+    opacity: 1;
+  }
+  .custom-html-icon{
+    color: #e34f26;
+  }
+  .custom-css-icon{
+    color: #1572B6;
+  }
+  .custom-JavaScript-icon{
+    color: #F7DF1E;
+  }
+  .custom-sql-icon{
+    color: #2C3E50;
+  }
+  .custom-github-icon{
+    color: #181717;
+  }
+  .custom-react-icon{
+    color: #61DBFB;
+  }
 
 
